@@ -72,7 +72,7 @@ task.spawn(function()
 	local dots = {"", ".", "..", "..."}
 	local index = 1
 	while loading and loading.Parent do
-		loading.Text = "Loading DarkSpawner" .. dots[index]
+		loading.Text = "Loading AutoMiddle" .. dots[index]
 		index = (index % #dots) + 1
 		task.wait(0.4)
 	end
